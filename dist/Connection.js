@@ -15,6 +15,7 @@
  * limitations under the License.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.SSHConnection = void 0;
 const ssh2_1 = require("ssh2");
 const net = require("net");
 const fs = require("fs");
